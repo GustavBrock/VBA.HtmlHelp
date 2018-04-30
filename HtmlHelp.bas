@@ -1,7 +1,7 @@
 Attribute VB_Name = "HtmlHelp"
 ' Functions for managing the HTML Help Viewer control.
-' 2018-04-26. Gustav Brock, Cactus Data ApS, CPH.
-' Version 1.0.1
+' 2018-04-28. Gustav Brock, Cactus Data ApS, CPH.
+' Version 1.0.2
 '
 ' License: MIT.
 
@@ -17,32 +17,36 @@ Option Explicit
 
 ' Open a compiled HTML help file (.chm) or close all opened help files.
 #If VBA7 Then
-    Private Declare PtrSafe Function HTMLHelpShowContents Lib "hhctrl.ocx" _
-        Alias "HtmlHelpA" (ByVal hwnd As LongPtr, _
+    Private Declare PtrSafe Function HTMLHelpShowContents Lib "hhctrl.ocx" Alias "HtmlHelpA" ( _
+        ByVal hwnd As LongPtr, _
         ByVal lpHelpFile As String, _
         ByVal wCommand As Long, _
-        ByVal dwData As Long) As Long
+        ByVal dwData As Long) _
+        As Long
 #Else
-    Private Declare Function HTMLHelpShowContents Lib "hhctrl.ocx" _
-        Alias "HtmlHelpA" (ByVal hwnd As Long, _
+    Private Declare Function HTMLHelpShowContents Lib "hhctrl.ocx" Alias "HtmlHelpA" ( _
+        ByVal hwnd As Long, _
         ByVal lpHelpFile As String, _
         ByVal wCommand As Long, _
-        ByVal dwData As Long) As Long
+        ByVal dwData As Long) _
+        As Long
 #End If
 
 ' Open a compiled HTML help file (.chm) with the Search tab active.
 #If VBA7 Then
-    Private Declare PtrSafe Function HTMLHelpShowSearch Lib "hhctrl.ocx" _
-        Alias "HtmlHelpA" (ByVal hwnd As LongPtr, _
+    Private Declare PtrSafe Function HTMLHelpShowSearch Lib "hhctrl.ocx" Alias "HtmlHelpA" ( _
+        ByVal hwnd As LongPtr, _
         ByVal lpHelpFile As String, _
         ByVal wCommand As Long, _
-        ByRef dwData As HhFtsQuery) As Long
+        ByRef dwData As HhFtsQuery) _
+        As Long
 #Else
-    Private Declare Function HTMLHelpShowSearch Lib "hhctrl.ocx" _
-        Alias "HtmlHelpA" (ByVal hwnd As Long, _
+    Private Declare Function HTMLHelpShowSearch Lib "hhctrl.ocx" Alias "HtmlHelpA" ( _
+        ByVal hwnd As Long, _
         ByVal lpHelpFile As String, _
         ByVal wCommand As Long, _
-        ByRef dwData As HhFtsQuery) As Long
+        ByRef dwData As HhFtsQuery) _
+        As Long
 #End If
 
 
