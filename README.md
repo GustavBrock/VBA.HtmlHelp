@@ -18,7 +18,7 @@ Code has been tested with both 32-bit and 64-bit *Microsoft Access 2016* and *36
 ### Documentation ###
 Full documentation can be found here:
 
-![EE Logo](https://raw.githubusercontent.com/GustavBrock/VBA.HelpFile/master/images/EE%20Logo.png)
+![EE Logo](https://raw.githubusercontent.com/GustavBrock/VBA.HtmlHelp/master/images/EE%20Logo.png) 
 
 [Control the HTML Help Viewer OCX control](https://www.experts-exchange.com/articles/32054/Control-the-HTML-Help-Viewer-OCX-control.html)
 
