@@ -5,7 +5,11 @@ Attribute VB_Name = "HtmlHelp"
 '
 ' License: MIT.
 
-' Professional tool for creating compressed HTML help files:
+' Professional tools for creating compressed HTML help files:
+'
+'   HelpScribble
+'   https://www.helpscribble.com/
+'
 '   Innovasys HelpStudio
 '   http://www.innovasys.com/product/hs/overview
 
