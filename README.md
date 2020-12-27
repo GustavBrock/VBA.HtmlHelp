@@ -12,14 +12,24 @@ From VBA, the viewer is opened via one of two API calls to the control, *hhctrl.
 
 The documentation on the control is sparse and rudimentary, almost nil, and these traps are to be found by trial and error or to be extracted bit by bit at various fora and blog posts. However, once taken care of, the usage is straight-forward. Only one function is needed.
 
+![Form](https://raw.githubusercontent.com/GustavBrock/VBA.HtmlHelp/master/images/HelpForm.png)
+
 ### Code ###
-Code has been tested with both 32-bit and 64-bit *Microsoft Access 2016* and *365*.
+Code has been tested with both 32-bit and 64-bit *Microsoft Access 2019* and *365*.
 
 ### Documentation ###
 Full documentation can be found here:
 
 ![EE Logo](https://raw.githubusercontent.com/GustavBrock/VBA.HtmlHelp/master/images/EE%20Logo.png) 
 
-[Control the HTML Help Viewer OCX control](https://www.experts-exchange.com/articles/32054/Control-the-HTML-Help-Viewer-OCX-control.html)
+[Control the HTML Help Viewer OCX control](https://www.experts-exchange.com/articles/32054/Control-the-HTML-Help-Viewer-OCX-control.html?preview=ZHlWNpC4ZaQ%3D)
 
 Included is a Microsoft Access example application.
+
+<hr>
+
+*If you wish to support my work or need extended support or advice, feel free to:*
+
+<p>
+
+[<img src="https://raw.githubusercontent.com/GustavBrock/VBA.HtmlHelp/master/images/BuyMeACoffee.png">](https://www.buymeacoffee.com/gustav/)
